@@ -6,8 +6,6 @@ function h($str)
 };
 
 //DB接続関数：db_conn() 
-//※関数を作成し、内容をreturnさせる。
-//※ DBname等、今回の授業に合わせる。
 function db_conn(){
 
 try {
@@ -24,9 +22,10 @@ try {
 
 
 //SQLエラー関数：sql_error($stmt)
+//SQL実行時にエラーがある場合（エラーオブジェクト取得して表示）
 function sql_error($stmt){
 $error = $stmt->errorInfo();
-exit('SQLError:' . print_r($error, true));
+exit('SQLErrorMessage:' . print_r($error, true));
 };
 
 

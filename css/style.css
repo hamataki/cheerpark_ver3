@@ -49,6 +49,7 @@ footer {
     margin: 0 auto;
     margin-bottom: 30px;
     border-radius: 100px;
+    padding: 1px 8px;
 }
 .send{
     display: flex;
@@ -63,6 +64,7 @@ footer {
     margin: 0 auto;
     margin-bottom: 30px;
     border-radius: 100px;
+    padding: 1px 8px;
 }
 .btn_back{
     margin: 20px;

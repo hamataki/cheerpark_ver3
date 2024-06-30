@@ -29,7 +29,9 @@
         <input type="text" name="email" class="email_input" required><br>
         <h2 class="passward">パスワード</h2>
         <input type="text" name="passward" class="passward_input" required><br>
-        <button type="button" class="next">Next</button>
+        <button type="button" class="next">
+            <i class="fa-solid fa-forward-step" style="color: rgb(87, 80, 80)"></i>
+        </button>
         </div>
 
         <div class="question" id="question2">
@@ -57,7 +59,9 @@
         </div>
         <div class="btn_group">
         <div class="btn_back">
-        <button type="button" class="back">Back</button>
+        <button type="button" class="back">
+            <i class="fa-solid fa-backward-step" style="color: rgb(87, 80, 80)"></i>
+        </button>
         </div>
         <div class="btn_send">
         <button type="submit" class="send">

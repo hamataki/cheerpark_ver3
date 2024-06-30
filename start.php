@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>ログイン完了</title>
-
+    <!-- Favicon -->
+    <link rel="icon" href="img/hat.jpg" />
+    <meta http-equiv="refresh" content=" 3; url=./select.php">
 </head>
 <body>
     <!-- head.htmlの挿入 -->

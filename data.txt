@@ -1,0 +1,6 @@
+2024-06-30,aaa,test@gmal.com,ssss,eスポーツ,バレーボール
+2024-06-30,徳川家康,test@gmal.com,ssss,競馬、eスポーツ,
+2024-06-30,徳川家康,test@gmal.com,aaaa,競馬、eスポーツ,
+2024-06-30,徳川家康,test@gmal.com,aaaa,競馬、eスポーツ,
+2024-06-30,徳川家康,test@gmal.com,ssss,競馬,
+2024-06-30,徳川家康,test@gmal.com,ssss,競馬,

@@ -17,7 +17,7 @@ $id = $_POST['id'];
 $pdo = db_conn();
 
 //３．データ登録SQL作成
-$stmt = $pdo->prepare('UPDATE  
+$stmt = $pdo->prepare('UPDATE cheerpark_an_table3 
                     SET 
                      birth = :birth, name = :name, email = :email,
                      passward = :passward, sport = :sport, other = :other, date = now()
@@ -37,10 +37,9 @@ $stmt->bindValue(':id', $id, PDO::PARAM_INT);
 $status = $stmt->execute(); //true or false
 
 //４．データ登録処理後
-if($status === false) {
+if ($status === false) {
     sql_error($stmt);
 } else {
-//select.phpへリダイレクト
-redirect('select.php');
+    //select.phpへリダイレクト
+    redirect('select.php');
 };
-?>

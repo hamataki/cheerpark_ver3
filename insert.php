@@ -17,7 +17,7 @@ $pdo = db_conn();
 
 //３．データ登録SQL作成
 $stmt = $pdo->prepare('INSERT INTO
-( id, birth, name, email, passward, sport, other, date )
+cheerpark_an_table3( id, birth, name, email, passward, sport, other, date )
 VALUES( NULL, :birth, :name, :email, :passward, :sport, :other, now() ) ');
 
 //  2. バインド変数を用意
@@ -32,10 +32,9 @@ $stmt->bindValue(':other', $other, PDO::PARAM_STR);
 $status = $stmt->execute(); //true or false
 
 //４．データ登録処理後
-if($status === false) {
+if ($status === false) {
     sql_error($stmt);
 } else {
-//select.phpへリダイレクト
-redirect('start.php');
+    //select.phpへリダイレクト
+    redirect('start.php');
 };
-?>

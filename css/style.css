@@ -1,6 +1,5 @@
 body {
-    color: #4a5454;
-    background: radial-gradient(#ffffff, #f7f8f8);
+    background: white;
     min-height: 95vh;
 }
 .cont{
@@ -9,7 +8,7 @@ body {
     position: relative;/*←相対位置*/
     margin: 0 auto;
     text-align: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /*←全て含めてmin-height:100vhに*/
 }
 footer {
@@ -213,4 +212,19 @@ footer {
     justify-content: center;
     margin-top: 10px;
     font-size: 18px;
+}
+.containerjum {
+    white-space:[normal];
+    margin: 10px;
+    text-align: left;
+}
+.navbar-header{
+    margin: 20px;
+}
+.aicon{
+    width: 16px;
+    height: 16px;
+}
+ul {
+    border-bottom:1px solid #666;
 }

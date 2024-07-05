@@ -3,7 +3,7 @@
 cheerpark_ver3
 
 ②課題内容（どんな作品か）
-ログイン機能＋スポーツ選択
+ログイン機能＋スポーツ選択、データ一覧表示（更新・削除）
 
 ③DEMO
 デプロイしている場合はURLを記入（任意） https://cheerpark.sakura.ne.jp/cheerpark_ver3/index.php
